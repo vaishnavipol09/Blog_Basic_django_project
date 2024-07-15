@@ -1,0 +1,18 @@
+{% load static %}
+
+
+<li>
+    <article class="post">
+      <a href="{% url "post=detail-page" "the-mountains" %}">
+        <img src="{% static "blog/images/django_2.jpg" %}" atl="Mountain Hiking" />
+        <div class="post_content">
+          <h3>Mountain Hiking</h3>
+          <p>
+            Mountains are large landforms rising prominently above their
+            surroundings, typically formed through tectonic forces or
+            volcanism, providing diverse ecosystems.
+          </p>
+        </div>
+      </a>
+    </article>
+  </li>
